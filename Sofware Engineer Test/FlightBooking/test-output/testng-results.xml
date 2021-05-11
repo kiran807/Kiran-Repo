@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-08T01:11:07 IST" name="Default suite" finished-at="2021-05-08T01:11:15 IST" duration-ms="7963">
+    <groups>
+    </groups>
+    <test started-at="2021-05-08T01:11:07 IST" name="Default test" finished-at="2021-05-08T01:11:15 IST" duration-ms="7963">
+      <class name="com.flightBooking.tests.FlightBook_Main">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:com.flightBooking.tests.FlightBook_Main@2f112965]" started-at="2021-05-08T01:10:38 IST" name="BeforeSuite" finished-at="2021-05-08T01:11:07 IST" duration-ms="28665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:com.flightBooking.tests.FlightBook_Main@2f112965]" started-at="2021-05-08T01:11:07 IST" name="BeforeMethod" finished-at="2021-05-08T01:11:07 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="TC01_BF_Select_DepartAndDestin_Feature()[pri:0, instance:com.flightBooking.tests.FlightBook_Main@2f112965]" started-at="2021-05-08T01:11:07 IST" name="TC01_BF_Select_DepartAndDestin_Feature" finished-at="2021-05-08T01:11:10 IST" duration-ms="3176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_BF_Select_DepartAndDestin_Feature -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:com.flightBooking.tests.FlightBook_Main@2f112965]" started-at="2021-05-08T01:11:10 IST" name="AfterMethod" finished-at="2021-05-08T01:11:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:com.flightBooking.tests.FlightBook_Main@2f112965]" started-at="2021-05-08T01:11:10 IST" name="BeforeMethod" finished-at="2021-05-08T01:11:10 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="TC02_BF_Select_Flight()[pri:0, instance:com.flightBooking.tests.FlightBook_Main@2f112965]" started-at="2021-05-08T01:11:10 IST" name="TC02_BF_Select_Flight" finished-at="2021-05-08T01:11:11 IST" duration-ms="991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_BF_Select_Flight -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:com.flightBooking.tests.FlightBook_Main@2f112965]" started-at="2021-05-08T01:11:11 IST" name="AfterMethod" finished-at="2021-05-08T01:11:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:com.flightBooking.tests.FlightBook_Main@2f112965]" started-at="2021-05-08T01:11:11 IST" name="BeforeMethod" finished-at="2021-05-08T01:11:11 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="TC03_BF_Customer_Mandatory_Details()[pri:0, instance:com.flightBooking.tests.FlightBook_Main@2f112965]" started-at="2021-05-08T01:11:11 IST" name="TC03_BF_Customer_Mandatory_Details" finished-at="2021-05-08T01:11:14 IST" duration-ms="3200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_BF_Customer_Mandatory_Details -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:com.flightBooking.tests.FlightBook_Main@2f112965]" started-at="2021-05-08T01:11:14 IST" name="AfterMethod" finished-at="2021-05-08T01:11:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:com.flightBooking.tests.FlightBook_Main@2f112965]" started-at="2021-05-08T01:11:14 IST" name="BeforeMethod" finished-at="2021-05-08T01:11:14 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="TC04_BF_Customer_ID_Confirmation()[pri:0, instance:com.flightBooking.tests.FlightBook_Main@2f112965]" started-at="2021-05-08T01:11:14 IST" name="TC04_BF_Customer_ID_Confirmation" finished-at="2021-05-08T01:11:15 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_BF_Customer_ID_Confirmation -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:com.flightBooking.tests.FlightBook_Main@2f112965]" started-at="2021-05-08T01:11:15 IST" name="AfterMethod" finished-at="2021-05-08T01:11:15 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:com.flightBooking.tests.FlightBook_Main@2f112965]" started-at="2021-05-08T01:11:15 IST" name="AfterSuite" finished-at="2021-05-08T01:11:16 IST" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- com.flightBooking.tests.FlightBook_Main -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

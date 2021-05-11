@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.flightBooking.tests.FlightBook_Main">
+        <methods>
+          <include name="TC01_BF_Select_DepartAndDestin_Feature"/>
+          <include name="AfterSuite"/>
+          <include name="AfterMethod"/>
+          <include name="TC04_BF_Customer_ID_Confirmation"/>
+          <include name="BeforeSuite"/>
+          <include name="TC02_BF_Select_Flight"/>
+          <include name="TC03_BF_Customer_Mandatory_Details"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- com.flightBooking.tests.FlightBook_Main -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

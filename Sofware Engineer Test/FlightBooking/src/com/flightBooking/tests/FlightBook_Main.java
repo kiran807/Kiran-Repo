@@ -1,7 +1,9 @@
 package com.flightBooking.tests;
-
+import java.io.FileInputStream;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.dom4j.DocumentException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,7 +16,8 @@ import org.testng.annotations.Test;
 import com.flightBooking.tests.FlightBook_TestMethods_Features;
 
 
-public class FlightBook_Main extends FlightBook_Setup  {
+public class FlightBook_Main extends FlightBook_Setup  
+{
 	
 	
 	
@@ -35,20 +38,44 @@ public class FlightBook_Main extends FlightBook_Setup  {
 	
 	 
 	// Feature - Select Departure and Destination Option in Page 
-	@Test
-	public void TC01_BF_Select_DepartAndDestin_Feature()
-	{
-		FlightBook_Methods_Features.TC01_BF_Select_DepartAndDestin_Feature();
-	}
-	
-	
-	// Feature - Select Departure Flight in the Page 
 		@Test
-		public void TC02_BF_Select_Flight() throws InterruptedException
+		public void TC01_BF_Select_DepartAndDestin_Feature()
+		{
+			FlightBook_Methods_Features.TC01_BF_Select_DepartAndDestin_Feature();
+		}
+	
+	
+		// Feature - Select a Flight with Flight N0 in Page 
+		@Test
+		public void TC02_BF_Select_Flight() 
 		{
 			FlightBook_Methods_Features.TC02_BF_Select_Flight();
+
 		}
+
+
+		// Feature - Filling Customer Mandatory Details 
+		@Test
+		public void TC03_BF_Customer_Mandatory_Details() 
+		{
+			FlightBook_Methods_Features.TC03_BF_Customer_Mandatory_Details();
+		}
+
+
+		// Feature Customer ID Confirmation 
+		@Test
+		public void TC04_BF_Customer_ID_Confirmation()
+		{
+					
+			FlightBook_Methods_Features.TC04_BF_Customer_ID_Confirmation();
+
+		}
+		
+		
 }
+
+
+
 
 
 

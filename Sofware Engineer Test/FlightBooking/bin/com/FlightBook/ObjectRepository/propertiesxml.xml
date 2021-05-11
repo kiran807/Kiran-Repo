@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+<Depart>fromPort</Depart>
+<Destin>toPort</Destin>
+<FindFlights>//input[@class='btn btn-primary']</FindFlights>
+<TableColumn>//div[@class='container']/table/thead/tr/th</TableColumn>
+<TableRow>//div[@class='container']/table/tbody/tr</TableRow>
+<SelectFlight>//div[@class='container']/table/tbody/tr/td[text()='43']/preceding-sibling::td/input</SelectFlight>
+<CustName>inputName</CustName>
+<PurchaseFlight>//input[@class='btn btn-primary']</PurchaseFlight>
+<CustIDConfirm>//table[@class='table']/tbody/tr/td[2]</CustIDConfirm>
+</menu>
